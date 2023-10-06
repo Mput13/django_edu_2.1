@@ -4,3 +4,6 @@
 
 В командной строке из директории проекта ввести команду 
 $ python manage.py runserver
+
+
+[![Build Status](https://github.com/Mput13/django_edu/blob/main/.github/workflows/python-package.yml)
