@@ -1,8 +1,9 @@
-В зависимости от нудж установить библиотеки перечисленные в файлах в папке requirements
+[![Python package](https://github.com/Mput13/django_edu/actions/workflows/python-package.yml/badge.svg)](https://github.com/Mput13/django_edu/actions/workflows/python-package.yml)
 
-Добавить переменную виртуального окружения SECRET_KEY
+В зависимости от нужд установить библиотеки перечисленные в файлах в папке requirements
+
+Создать переменные окружения на основе test.env
 
 В командной строке из директории проекта ввести команду 
-$ python manage.py runserver
+```$ python manage.py runserver```
 
-[![Python package](https://github.com/Mput13/django_edu/actions/workflows/python-package.yml/badge.svg)](https://github.com/Mput13/django_edu/actions/workflows/python-package.yml)
