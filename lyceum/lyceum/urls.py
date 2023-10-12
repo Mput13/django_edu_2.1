@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 
-from lyceum.homepage import views
+from homepage import views
 
 urlpatterns = [
     path('', views.index),
