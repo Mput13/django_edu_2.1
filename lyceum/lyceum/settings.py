@@ -1,13 +1,17 @@
 import os
+import pprint
 from pathlib import Path
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = "abcdef"
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 
-DEBUG = True
-
-ALLOWED_HOSTS = []
+DEBUG = bool(os.getenv('DJANGO_DEBUG'))
+ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS').split()
 INSTALLED_APPS = [
     "homepage.apps.HomepageConfig",
     "catalog.apps.CatalogConfig",
