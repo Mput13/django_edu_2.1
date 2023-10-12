@@ -28,5 +28,5 @@ jobs:
     - name: Run Tests
       run: |
         python ./lyceum/manage.py test homepage
-        python ./lyceum/manage.py test category
+        python ./lyceum/manage.py test catalog
         python ./lyceum/manage.py test about
